@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trialmatch-ai"
+version = "0.1.0"
+description = "Explainable clinical trial matching with hybrid retrieval, structured eligibility checks, and reproducible evaluation."
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+license = { text = "MIT" }
+authors = [
+  { name = "Yassir Dembri" }
+]
+dependencies = [
+  "pandas>=2.2.3",
+  "rank-bm25>=0.2.2",
+  "requests>=2.32.3",
+  "scikit-learn>=1.8.0",
+  "streamlit>=1.42.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.4",
+]
+
+[project.scripts]
+trialmatch-fetch = "trialmatch.fetch:main"
+trialmatch-eval = "trialmatch.evaluate:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

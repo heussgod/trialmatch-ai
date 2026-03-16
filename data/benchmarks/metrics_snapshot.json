@@ -1,0 +1,53 @@
+{
+  "top1": {
+    "bm25": {
+      "hit_rate_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "structured_pass_rate_at_k": 1.0
+    },
+    "semantic": {
+      "hit_rate_at_k": 0.9,
+      "mrr_at_k": 0.9,
+      "structured_pass_rate_at_k": 1.0
+    },
+    "hybrid": {
+      "hit_rate_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "structured_pass_rate_at_k": 1.0
+    }
+  },
+  "top3": {
+    "bm25": {
+      "hit_rate_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "structured_pass_rate_at_k": 1.0
+    },
+    "semantic": {
+      "hit_rate_at_k": 1.0,
+      "mrr_at_k": 0.95,
+      "structured_pass_rate_at_k": 0.9667
+    },
+    "hybrid": {
+      "hit_rate_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "structured_pass_rate_at_k": 1.0
+    }
+  },
+  "top5": {
+    "bm25": {
+      "hit_rate_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "structured_pass_rate_at_k": 0.96
+    },
+    "semantic": {
+      "hit_rate_at_k": 1.0,
+      "mrr_at_k": 0.95,
+      "structured_pass_rate_at_k": 0.98
+    },
+    "hybrid": {
+      "hit_rate_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "structured_pass_rate_at_k": 1.0
+    }
+  }
+}

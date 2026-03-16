@@ -1,0 +1,112 @@
+[
+  {
+    "patient_id": "hf_elderly_ckd",
+    "age": 74,
+    "sex": "MALE",
+    "conditions": ["heart failure", "chronic kidney disease"],
+    "keywords": ["hyperkalemia", "recent decompensation", "hospitalization"],
+    "desired_interventions": ["standard of care", "raasi therapy"],
+    "target_conditions": ["heart failure"],
+    "gold_nct_ids": ["NCT06578078", "NCT04591639"],
+    "notes": "Older adult with heart failure and kidney disease after recent admission."
+  },
+  {
+    "patient_id": "hf_hfpef_training",
+    "age": 68,
+    "sex": "FEMALE",
+    "conditions": ["heart failure with preserved ejection fraction"],
+    "keywords": ["exercise intolerance", "vascular function", "fatigue"],
+    "desired_interventions": ["inspiratory muscle training", "exercise"],
+    "target_conditions": ["heart failure", "hfpef"],
+    "gold_nct_ids": ["NCT06510231", "NCT06312748"],
+    "notes": "Symptomatic HFpEF patient interested in training-based or vascular function interventions."
+  },
+  {
+    "patient_id": "t2d_obesity_combo",
+    "age": 52,
+    "sex": "MALE",
+    "conditions": ["type 2 diabetes", "obesity"],
+    "keywords": ["weight loss", "glycemic control", "metformin"],
+    "desired_interventions": ["glp-1", "combination therapy"],
+    "target_conditions": ["type 2 diabetes"],
+    "gold_nct_ids": ["NCT06257966", "NCT07004322", "NCT07139405"],
+    "notes": "Adult with obesity and T2D looking for medication-focused metabolic trial options."
+  },
+  {
+    "patient_id": "t2d_kidney_microbiome",
+    "age": 60,
+    "sex": "FEMALE",
+    "conditions": ["type 2 diabetes", "diabetic kidney disease"],
+    "keywords": ["kidney disease", "nutrition", "metabolomics"],
+    "desired_interventions": ["diet", "produce prescription"],
+    "target_conditions": ["type 2 diabetes", "diabetic kidney disease"],
+    "gold_nct_ids": ["NCT06833541", "NCT06837805"],
+    "notes": "Patient with diabetic kidney disease interested in nutrition and metabolomics-oriented studies."
+  },
+  {
+    "patient_id": "pd_dbs_programming",
+    "age": 63,
+    "sex": "MALE",
+    "conditions": ["parkinson disease"],
+    "keywords": ["visuomotor decline", "deep brain stimulation", "programming"],
+    "desired_interventions": ["deep brain stimulation"],
+    "target_conditions": ["parkinson disease"],
+    "gold_nct_ids": ["NCT06857851", "NCT07348705", "NCT02119611"],
+    "notes": "Parkinson patient being evaluated for DBS optimization and programming."
+  },
+  {
+    "patient_id": "pd_remote_rehab",
+    "age": 70,
+    "sex": "FEMALE",
+    "conditions": ["parkinson disease"],
+    "keywords": ["freezing of gait", "rehabilitation", "remote therapy"],
+    "desired_interventions": ["haptic rehabilitation", "exercise"],
+    "target_conditions": ["parkinson disease"],
+    "gold_nct_ids": ["NCT07457710", "NCT07068217", "NCT06328335"],
+    "notes": "Parkinson patient with gait freezing looking for rehabilitation-heavy studies."
+  },
+  {
+    "patient_id": "copd_taichi_walking",
+    "age": 66,
+    "sex": "MALE",
+    "conditions": ["chronic obstructive pulmonary disease", "chronic musculoskeletal pain"],
+    "keywords": ["walking", "tai chi", "pulmonary rehabilitation"],
+    "desired_interventions": ["exercise", "coaching"],
+    "target_conditions": ["copd"],
+    "gold_nct_ids": ["NCT05701982", "NCT06732869", "NCT05254431"],
+    "notes": "COPD patient with pain and reduced endurance seeking movement-based interventions."
+  },
+  {
+    "patient_id": "copd_digital_inhaler",
+    "age": 59,
+    "sex": "FEMALE",
+    "conditions": ["chronic obstructive pulmonary disease"],
+    "keywords": ["inhaler adherence", "digital monitoring", "obstructive lung disease"],
+    "desired_interventions": ["digital inhaler"],
+    "target_conditions": ["copd"],
+    "gold_nct_ids": ["NCT07214337", "NCT06852339"],
+    "notes": "COPD patient with inhaler adherence issues who could benefit from digital support."
+  },
+  {
+    "patient_id": "breast_lymphedema_exercise",
+    "age": 48,
+    "sex": "FEMALE",
+    "conditions": ["breast cancer", "lymphedema"],
+    "keywords": ["survivorship", "exercise", "secondary lymphedema prevention"],
+    "desired_interventions": ["exercise"],
+    "target_conditions": ["breast cancer"],
+    "gold_nct_ids": ["NCT07365618", "NCT06421285"],
+    "notes": "Breast cancer survivor seeking exercise-based lymphedema support."
+  },
+  {
+    "patient_id": "breast_tnbc_neoadjuvant",
+    "age": 45,
+    "sex": "FEMALE",
+    "conditions": ["triple-negative breast cancer"],
+    "keywords": ["neoadjuvant therapy", "immunotherapy", "high risk early stage"],
+    "desired_interventions": ["durvalumab", "chemotherapy"],
+    "target_conditions": ["breast cancer", "triple-negative breast cancer"],
+    "gold_nct_ids": ["NCT07372079", "NCT03594396"],
+    "notes": "Early-stage triple-negative breast cancer profile focused on neoadjuvant treatment options."
+  }
+]
